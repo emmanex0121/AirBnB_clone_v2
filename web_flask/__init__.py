@@ -1,4 +1,4 @@
-"""Importing the path to models module"""
-from sys import path
+"""Importing the path to models package"""
+import sys
 
-path.append('../')
+sys.path.append('../')
