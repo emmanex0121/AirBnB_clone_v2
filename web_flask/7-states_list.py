@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-from sys import path
-path.append('../')
 """Importing Flask to run the web app"""
 from flask import Flask, render_template
 from models import storage
